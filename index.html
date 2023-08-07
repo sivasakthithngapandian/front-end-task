@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        size.onchange = (e) => result.innerText = e.target.value;
+        colour.onchange = (e) => result1.innerText = e.target.value;
+    </script>
+    <link rel="stylesheet" href="./task.css">
+
+</head>
+<body>
+    <div class="row">
+       <h1><span>Bundle & Save</span></h1>
+    </div>
+    <br>
+    <div class="row1" for="myRadioId">
+        <label class="div2-column1 radio">
+            <input type="radio" name="myRadioField" id="myRadioId" class="radio--input">
+            <div class="radio__radio" ></div>
+        </label>
+        <div class="div2-column2">
+            <label>1 Pair</label>
+            <p class="price">DKK 195.00</p>
+        </div>
+        <div class="div2-column3">
+            <label class="price">50% OFF</label>
+        </div>
+    </div>
+    <br>
+    <div class="row2" for="myRadioField">
+        <label class="div3-column1">
+            <input type="radio" name="myRadioField" id="myRadioId" class="radio--input">
+            <div class="radio__radio" ></div>
+        </label>
+        <div class="div3-column2">
+            <label>2 Pair</label>
+            <p class="price">DKK 345.00</p>
+        </div>
+        <div class="div3-column2">
+            <p class="strike"><s>DKK 195.00</s></p>
+        </div>
+        <div class="div3-column4">
+            <label style="color:#0e866a;font-weight: bold;" class="priceM">Most Popular</label>
+            <br>
+            <label class="priceOff">40% OFF</label>
+        </div>
+        <div class="row">
+            <div class="div3-column1">
+            
+        </div>
+        <div class="div3-column2" style="margin-left: 6.33%;">
+             <p>Size</p>
+        </div>
+        <div class="div3-column3">
+            <p>Colour</p>
+        </div>
+    
+        <div class="div3-column4"></div>
+    </div>
+    <div class="row" style="padding-bottom: 10px;display: flex;">
+        <div class="div3-column1">
+            <p style="margin-top: -30px;">#1</p>
+    </div>
+    <div class="div3-column2">            
+        <select id="size">
+            <option value="">Choose Size</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XL</option>
+       </select>
+        <div id="result"></div>
+    </div>
+    <div class="div3-column2">
+        <select id="colour">
+            <option value="">Choose Colour</option>
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Blue">Blue</option>
+       </select>
+    </div>
+    <div class="div3-column4"></div>
+    </div>
+
+    <div class="row" style="padding-bottom: 10px;display: flex;">
+        <div class="div3-column1">
+            <p style="margin-top: -30px;">#2</p>
+        </div>
+            <div class="div3-column2">
+            <select id="size">
+                <option value="">Choose Size</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XL</option>
+            </select>
+                <div id="result"></div>
+        </div>
+        <div class="div3-column2">
+            <select id="colour">
+                <option value="">Choose Colour</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Blue">Blue</option>
+            </select>
+        </div>
+            <div class="div3-column4"></div>
+        </div>
+    </div>
+    <br>
+        <div class="row1" for="myRadioId">
+            <label class="div2-column1 radio">
+                <input type="radio" name="myRadioField" id="myRadioId" class="radio--input">
+                 <div class="radio__radio" ></div>
+            </label>
+        <div class="div2-column2">
+            <label>3 Pair</label>
+                <p class="price">DKK 528.00</p>
+        </div>
+        <div class="div2-column3">
+            <label class="price">60% OFF</label>
+        </div>
+        </div>
+    <div class="row">
+        <div class="div2-column2">
+            <label style="color: #0e866a;">Free 2 day Shipping</label>
+        </div>
+        <div class="div2-columnTol">
+            <p class="price"><label style="font-weight: normal;">Total : </label>DKK 528.00</p>
+        </div>
+    </div>  
+    <br>
+    <button class="btn">+ Add to Cart</button>
+</body>
+
+</html>
+<footer class="footer">
+    <label>© Powered by Pumper</label>
+</footer>
 
